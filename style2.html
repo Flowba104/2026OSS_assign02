@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage - Style 2</title>
+    <style>
+
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+        }
+
+        header h1 {
+            color: #04AA6D;
+            font-size: 34px;
+            margin: 0 0 8px 0;
+        }
+
+        header p {
+            margin: 0 0 20px 0;
+            color: #222;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2px;
+            width: 100%;
+            height: 45px;
+            margin: 0 0 25px 0;
+            padding: 0;
+        }
+
+        nav li {
+            flex: 1;
+            text-align: center;
+            background-color: #555;
+            color: white;
+            padding: 12px 0;
+            border: 1px solid #444;
+        }
+
+        nav li.active {
+            background-color: #04AA6D;
+        }
+
+        #content h1,
+        #content h2 {
+            color: #04AA6D;
+        }
+
+        #content h1 {
+            font-size: 28px;
+        }
+
+        #sidebar {
+            background-color: #f1f1f1;
+            width: 100%;
+            min-height: 100px;
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+        }
+
+        #sidebar h3 {
+            color: #04AA6D;
+            margin-top: 0;
+        }
+
+        footer p {
+            font-size: 13px;
+            color: #555;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Welcome to Duhun's Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </header>
+    <nav>
+        <ul>
+            <li>Stylesheet 1</li>
+            <li>Stylesheet 2</li>
+            <li class="active">Stylesheet 3</li>
+            <li>Stylesheet 4</li>
+            <li>No Stylesheet</li>
+        </ul>
+    </nav>
+    <div id="content">
+        <h1>Same Page Different Stylesheets</h1>
+
+
+        <p>This is a demonstration of how different stylesheets can change the layout
+        of your HTML page. You can change the layout of this page by selecting
+        different stylesheets in the menu, or by selecting one of the following links:
+        <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet1</a>, <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet2</a>,<a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet3</a>, <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet4</a>.
+    </p>
+
+        <h2>No Styles</h2>
+        <p>This page uses DIV elements to group different sections of the HTML page.
+        Click here to see how the page looks like with no stylesheet:
+        <a href="https://www.w3schools.com/css/demo_default.htm">No Stylesheet</a>.</p>
+    </div>
+
+    <div id="sidebar">
+        <h3>Side-Bar</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+        minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+        aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+        at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+        delenit augue duis dolore te feugait nulla facilisi.</p>
+    </footer>
+
+</body>
+</html>
